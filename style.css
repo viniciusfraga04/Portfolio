@@ -234,14 +234,20 @@ body{
     transform: translateY(-10px);
 }
 .section{
+    flex-wrap: wrap;
+}
+.skills-section {
     display: flex;
+    justify-content: center;
+    gap: 50px;
     flex-wrap: wrap;
 }
 .container1{
-    width: 600px;
-    height: 500px;
-    padding: 75px 90px;
-    margin-left: 120px;
+    width: 45%; 
+    max-width: 600px; 
+    height: auto; 
+    padding: 50px;
+    box-sizing: border-box;
 }
 .heading1{
     text-align: center;
@@ -452,8 +458,8 @@ body{
     opacity: 0;
 }
 .main-text{
-    padding-top: 130px;
-    margin-top: 200px;
+    padding-top: 50px;
+    margin-top: 50px;
 }
 .main-text h2{
     font-size: 60px;
